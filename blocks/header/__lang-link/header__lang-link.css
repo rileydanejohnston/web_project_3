@@ -1,0 +1,29 @@
+.header__lang-link {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    min-height: 28px;
+    min-width: 29px;
+    text-align: right;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+li:first-of-type{
+    margin-right: 18px;
+    text-decoration-line: underline;
+}
+
+@media screen and (max-width: 320px){
+    .header__lang-link {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: right;
+        min-height: 22px;
+        min-width: 20px;
+    }
+}
