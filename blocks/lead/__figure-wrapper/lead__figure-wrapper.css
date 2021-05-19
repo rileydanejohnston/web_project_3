@@ -1,0 +1,15 @@
+.lead__figure-wrapper {
+    margin: 64px 0 0 0;
+}
+
+@media screen and (max-width: 1280px) and (min-width: 768px){
+    .lead__figure-wrapper {
+        margin-top: 56px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .lead__figure-wrapper {
+        margin-top: 40px;
+    }
+}

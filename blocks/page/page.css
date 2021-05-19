@@ -1,7 +1,9 @@
 .page {
     font-family: inter;
     color: #FFFFFF;
-    min-width: 1280px;
+    max-width: 1280px;
+    /*max-width: 1280px;
+    min-width: 300px;   ???? arbitrary */
     margin: 0 auto;
     border: 1px solid red;
 }
