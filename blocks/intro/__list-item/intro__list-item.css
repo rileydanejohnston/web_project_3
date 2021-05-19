@@ -1,0 +1,12 @@
+.intro__list-item {
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.intro__list-item:first-of-type{
+    text-decoration: none; /* no idea why the first one was always underlined?? anyway*/
+}
