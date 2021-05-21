@@ -1,0 +1,5 @@
+.place__image_state_pa {
+    background-image: url('../../../../images/__image-pa.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}

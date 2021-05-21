@@ -1,0 +1,9 @@
+@import url('./_state/place__image_state_hampshire.css');
+@import url('./_state/place__image_state_maine.css');
+@import url('./_state/place__image_state_newyork.css');
+@import url('./_state/place__image_state_ohio.css');
+@import url('./_state/place__image_state_pa.css');
+
+.place__image {
+    width: 100%;
+}
