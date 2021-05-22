@@ -4,9 +4,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: rgba(42, 44, 47, .3); /* converted #2A2C2F to rgb @ https://www.rapidtables.com/convert/color/hex-to-rgb.html*/
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .cover__overlay:hover {
-    opacity: .8;
-    background-color: #2A2C2F;
+    background: rgba(42, 44, 47, .8);
+    transition: background .3s linear;
 }
