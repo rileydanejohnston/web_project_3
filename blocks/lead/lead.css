@@ -1,4 +1,5 @@
 @import url('./__caption/lead__caption.css');
+@import url('./__figure/lead__figure.css');
 @import url('./__image/lead__image.css');
 @import url('./__subtitle/lead__subtitle.css');
 @import url('./__title/lead__title.css');
@@ -19,10 +20,5 @@
         width: 100%;
         margin-left: 0;
         margin-right: 0;
-    }
-}
-@media screen and (max-width: 425px){
-    .lead {
-        
     }
 }
