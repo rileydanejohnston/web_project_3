@@ -3,12 +3,11 @@
     background-size: contain;
     background-repeat: no-repeat;
     width: 190px;
-    height: 44px;
+    min-height: 36px;
 }
 
 @media screen and (max-width: 425px){
     .logo {
         width: 156px;
-        height: 36px;
     }
 }

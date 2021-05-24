@@ -6,7 +6,6 @@
     color: #AAAAAA;
     margin: 0;
     max-width: 456px;
-    height: 12px; /*doesn't change so regular height is fine? */
 }
 @media screen and (max-width: 1023px){
     .place__url-heading {

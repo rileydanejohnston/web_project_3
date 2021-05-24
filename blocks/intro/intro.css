@@ -8,8 +8,6 @@
 .intro {
     max-width: 53.906%;
     min-width: 288px;
-    max-height: 841px;
-    min-height: 543px;
     margin: 92px 35% 0 12%; 
 }
 @media screen and (max-width: 1024px){
