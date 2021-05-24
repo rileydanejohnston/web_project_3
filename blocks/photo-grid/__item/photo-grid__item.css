@@ -12,12 +12,10 @@
 @import url('./_pic/photo-grid_item_pic_11.css');
 
 .photo-grid__item {
-    width: 284px;
-    height: 213px;
     background-size: contain;
     background-repeat: no-repeat;
 }
-@media screen and (max-width:1279px) /* ??? */
+@media screen and (max-width: 1279px) /* ??? */
 {
     .photo-grid__item {
         width: 300px;
@@ -25,7 +23,7 @@
     }
 }
 
-@media screen and (max-width:1024px) /* ??? */
+@media screen and (max-width: 1023px) /* ??? */
 {
     .photo-grid__item {
         width: 352px;
@@ -33,7 +31,7 @@
     }
 }
 
-@media screen and (max-width: 768px) /* ??? */
+@media screen and (max-width: 767px) /* ??? */
 {
     .photo-grid__item {
         width: 288px;

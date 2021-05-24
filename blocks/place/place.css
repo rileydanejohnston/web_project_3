@@ -7,22 +7,44 @@
 @import url('./__website/place__website.css');
 
 .place {
-    max-width: 984px;
+    width: 100%;
     min-height: 584px;
     display: grid;
-    grid-template-columns: 460px calc(100% - 460px);
+    grid-template-columns: 460px 484px;
     grid-template-rows: 76px 460px;
     grid-gap: 48px 40px;
-    margin-top: 80px;
 }
-
 .place:first-of-type {
     margin-top: 0;
+    text-decoration: none;
 }
-.place:nth-of-type(2){
-    min-height: 660px;
-    grid-template-rows: 152px 460px;
+@media screen and (min-height: 767px){
+    .place:nth-of-type(2){ 
+        min-height: 660px;
+        grid-template-rows: 152px 460px;
+    }
+    .place:nth-of-type(4){
+        min-height: 700px;
+    }
 }
-.place:nth-of-type(4){
-    min-height: 700px;
+@media screen and (max-width: 1279px){
+    .place {
+        grid-template-columns: 440px 456px;
+        grid-template-rows: 76px 440px;
+        grid-gap: 48px 32px;
+    }
+}
+@media screen and (max-width: 1023px){
+    .place {
+        grid-template-columns: 340px 352px;
+        grid-template-rows: 46px 340px;
+        grid-gap: 48px 28px;
+    }
+}
+@media screen and (max-width: 767px){
+    .place {
+        display: flex;
+        flex-direction: column;
+        margin-top: 48px;
+    }
 }

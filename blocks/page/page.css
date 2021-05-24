@@ -1,10 +1,21 @@
 .page {
     font-family: inter;
+    background-color: #2A2C2F;
     color: #FFFFFF;
     max-width: 1280px;
     min-width: 320px; 
-    /*max-width: 1280px;
-    min-width: 320px;   here or root?? */
     margin: 0 auto;
-    border: 1px solid red;
+    padding-top: 34px;
+    padding-bottom: 24px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}
+
+@media screen and (max-width: 425px){
+    .page {
+        padding-top: 20px;
+    }
 }

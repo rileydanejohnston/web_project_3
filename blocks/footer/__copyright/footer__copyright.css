@@ -7,3 +7,10 @@
     line-height: 1.0;
     text-align: right;
 }
+@media screen and (max-width: 425px){
+    .footer__copyright {
+        text-align: left;
+        font-size: 14px;
+        line-height: 1.0;
+    }
+}

@@ -2,16 +2,24 @@
 @import url('./__lang-links/header__lang-links.css');
 
 .header {
-    border: 1px solid red;
-    max-width: 984px;
-    min-height: 44px;
+    width: 76.875%; 
     display: flex;
     justify-content: space-between;
-    margin: 34px auto 0 auto;
+    margin: 0 auto;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 1024px){
     .header {
-        margin-top: 20px;
+        width: 90.625%;
+    }
+}
+@media screen and (max-width: 768px){
+    .header {
+        width: 93.75%;
+    }
+}
+@media screen and (max-width: 425px){
+    .header {
+        width: 90%;
     }
 }
