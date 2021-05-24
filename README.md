@@ -1,20 +1,10 @@
-# Project 3: From Portland to Portland
+# From Portland to Portland
 
-### Overview
-* Intro
-* Figma
-* Images
+## About
+_From Portland to Portland is a site about different travel destinations in the United States. The site is a combination of HTML and CSS. The main focus of this project was using relative units and media queries in CSS to make the site responsive._
 
-**Intro**
-
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
-
-**Figma**
-
-* [Link to the project on Figma](https://www.figma.com/file/AtbNbstbxWPcMqvF061V0R/Sprint-3%3A-From-Portland-to-Portland-%7C-desktop-%2B-mobile?node-id=0%3A1)
-
-**Images**
-
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-
-Good luck and have fun!
+## Future Improvements
+1. Experiment with different fonts to add a more personal touch to the site.
+2. Add prefixes to improve cross-browser functionality.
+3. Make the page transition more smoothly when going between breakpoints.
+4. Fix elements that don't behave at certain breakpoints.

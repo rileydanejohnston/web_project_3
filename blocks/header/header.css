@@ -2,7 +2,7 @@
 @import url('./__lang-links/header__lang-links.css');
 
 .header {
-    width: 76.875%; 
+    width: 76.875%;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
