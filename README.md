@@ -1,7 +1,9 @@
 # From Portland to Portland
 
 ## About
-_From Portland to Portland is a site about different travel destinations in the United States. The site is a combination of HTML and CSS. The main focus of this project was using relative units and media queries in CSS to make the site responsive._
+_From Portland to Portland is a site about different travel destinations in the United States. The site is a combination of HTML and CSS. The main focus of this project was using relative units and media queries in CSS to make the site responsive. Check it out below!_
+
+[From Portland to Portland](https://rileydanejohnston.github.io/web_project_3/)
 
 ## Future Improvements
 1. Experiment with different fonts to add a more personal touch to the site.
