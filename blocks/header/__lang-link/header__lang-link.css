@@ -1,16 +1,12 @@
+@import url('./_language/header__lang-link_language_active.css');
+@import url('./_language/header__lang-link_language_inactive.css');
+
 .header__lang-link {
     font-size: 24px;
     font-weight: 400;
     line-height: 1.17;
     text-align: right;
     color: #FFFFFF;
-    text-decoration: none;
-    max-width: 29px;
-}
-
-li:first-of-type{ /* .header__lang-link:first-of-type didn't work */
-    margin-right: 18px;
-    text-decoration-line: underline;
 }
 
 @media screen and (max-width: 425px){
