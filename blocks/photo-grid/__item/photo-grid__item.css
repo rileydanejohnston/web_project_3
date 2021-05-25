@@ -1,22 +1,10 @@
-@import url('./_pic/photo-grid__item_pic_0.css');
-@import url('./_pic/photo-grid__item_pic_1.css');
-@import url('./_pic/photo-grid__item_pic_2.css');
-@import url('./_pic/photo-grid__item_pic_3.css');
-@import url('./_pic/photo-grid__item_pic_4.css');
-@import url('./_pic/photo-grid__item_pic_5.css');
-@import url('./_pic/photo-grid__item_pic_6.css');
-@import url('./_pic/photo-grid__item_pic_7.css');
-@import url('./_pic/photo-grid__item_pic_8.css');
-@import url('./_pic/photo-grid__item_pic_9.css');
-@import url('./_pic/photo-grid__item_pic_10.css');
-@import url('./_pic/photo-grid__item_pic_11.css');
-
 .photo-grid__item {
-    background-size: contain;
-    background-repeat: no-repeat;
     min-height: 213px;
+    width: 100%;
 }
-@media screen and (max-width: 1279px) /* ??? */
+
+/* 
+@media screen and (max-width: 1279px)
 {
     .photo-grid__item {
         width: 300px;
@@ -24,7 +12,7 @@
     }
 }
 
-@media screen and (max-width: 1023px) /* ??? */
+@media screen and (max-width: 1023px)
 {
     .photo-grid__item {
         width: 352px;
@@ -32,10 +20,11 @@
     }
 }
 
-@media screen and (max-width: 767px) /* ??? */
+@media screen and (max-width: 767px)
 {
     .photo-grid__item {
         width: 288px;
         height: 216px;
     }
 }
+*/
