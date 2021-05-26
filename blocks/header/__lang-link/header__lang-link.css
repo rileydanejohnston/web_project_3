@@ -8,6 +8,10 @@
     text-align: right;
     color: #FFFFFF;
 }
+.header__lang-link:hover {
+    opacity: .8;
+    transition: opacity .3s linear;
+}
 
 @media screen and (max-width: 425px){
     .header__lang-link {
