@@ -1,22 +1,25 @@
 @import url('./__copyright/footer__copyright.css');
 @import url('./__link/footer__link.css');
-@import url('./__links/footer__links.css');
+@import url('./__list/footer__list.css');
+@import url('./__list-item/footer__list-item.css');
 
 .footer {
-    margin: 92px 42px 0 42px;
+    margin: 92px 48px 0 48px;
     display: flex;
     justify-content: space-between;
-    width: 92.5%;
+    width: calc(100% - 96px);
+    border: 1px solid red;
 }
 @media screen and (max-width: 768px){
     .footer {
         margin: 88px 24px 0 24px;
+        width: calc(100% - 48px);
     }
 }
 @media screen and (max-width: 425px){
     .footer {
         flex-direction: column;
-        width: 51.5625%;
-        margin: 64px 84% 0 10%;
+        width: calc(100% - 155px);
+        margin: 64px 139px 0 16px;
     }
 }
