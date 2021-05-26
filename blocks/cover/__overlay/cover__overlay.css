@@ -1,4 +1,5 @@
 .cover__overlay {
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -7,6 +8,7 @@
     background: rgba(42, 44, 47, .3); /* converted #2A2C2F to rgb @ https://www.rapidtables.com/convert/color/hex-to-rgb.html*/
     color: #FFFFFF;
     text-decoration: none;
+    position: absolute;
 }
 
 .cover__overlay:hover {

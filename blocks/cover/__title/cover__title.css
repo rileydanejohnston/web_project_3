@@ -5,6 +5,7 @@
     line-height: 1.06;
     text-align: center;
     max-width: 656px;
+    position: relative;
 }
 @media screen and (max-width: 425px){
     .cover__title {
