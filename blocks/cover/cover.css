@@ -6,7 +6,6 @@
 .cover {
     margin: 92px 48px 0 48px;
     width: calc(100% - 96px);
-    border: 1px solid red;
 }
 @media screen and (max-width: 1024px){
     .cover {
