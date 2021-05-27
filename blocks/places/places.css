@@ -13,7 +13,10 @@
     .places {
         max-width: 720px;
         margin-top: 88px;
+<<<<<<< HEAD
     }
+=======
+>>>>>>> c28b5d8047cebc5b739ec8d545a3d65d9f9dc5e4
 }
 @media screen and (max-width: 425px){
     .places {
