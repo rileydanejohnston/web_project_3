@@ -1,6 +1,9 @@
+@import url('./__list/places__list.css');
+
 .places {
     width: 76.875%;
     margin: 92px auto 0 auto;
+    border: 1px solid red;
 }
 @media screen and (max-width: 1279px){
     .places {
@@ -13,9 +16,9 @@
         width: 93.75%;
     }
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 425px){
     .places {
-        margin-top: 64px auto 0 auto;
-        width: 320px;
+        margin: 64px 0 0 0;
+        width: 100%;
     }
 }
