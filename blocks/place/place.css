@@ -12,7 +12,6 @@
     margin-top: 80px;
     grid-template-columns: 460px 484px;
     grid-gap: 48px 40px;
-    border: 1px solid blue;
 }
 .place:first-of-type {
     margin-top: 0;
