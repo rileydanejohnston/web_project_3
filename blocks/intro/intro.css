@@ -1,10 +1,3 @@
-@import url('./__list/intro__list.css');
-@import url('./__list-item/intro__list-item.css');
-@import url('./__span-accent/intro__span-accent.css');
-@import url('./__text-paragraph/intro__text-paragraph.css');
-@import url('./__text-subtitle/intro__text-subtitle.css');
-@import url('./__title/intro__title.css');
-
 .intro {
     margin: 92px 442px 0 148px;
     width: calc(100% - 590px);
