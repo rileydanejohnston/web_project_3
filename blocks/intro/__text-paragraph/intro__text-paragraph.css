@@ -5,3 +5,8 @@
     font-weight: 400;
     line-height: 1.63;
 }
+@media screen and (max-width: 768px){
+    .intro__text-paragraph {
+        max-width: 720px;
+    }
+}
